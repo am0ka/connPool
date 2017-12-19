@@ -6,7 +6,7 @@ var express   =    require("express");
      connectionLimit : 100, //important
      host     : 'localhost',
      user     : 'root',
-     password : 'amokas98',
+     password : '',
      database : 'mysql',
      debug    :  false
  });
