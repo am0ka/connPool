@@ -36,7 +36,7 @@ var express   =    require("express");
    });
  }
 
- app.get("/",function(req,res){
+ app.get("/connPool",function(req,res){
          handle_database(req,res);
  });
 
